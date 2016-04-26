@@ -36,7 +36,8 @@ gem "devise", "~> 3.4.1", github: "plataformatec/devise", branch: "master"
 # gem 'capistrano-rails', group: :development
 
 group :production do
-  gem "mysql2"
+  gem "pg"
+  gem "rails_12factor"
 end
 
 group :development do
